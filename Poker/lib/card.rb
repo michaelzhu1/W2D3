@@ -37,7 +37,7 @@ class Card
     end
   end
 
-  def to_symbol #outputs a nicely formatted thing for rendering
+  def to_s #outputs a nicely formatted thing for rendering
 
   end
 
@@ -48,5 +48,5 @@ class Card
   def self.values
     VALUES
   end
-  
+
 end

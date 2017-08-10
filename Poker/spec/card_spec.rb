@@ -12,6 +12,7 @@ describe "Card" do
 
   let(:card2) {Card.new("club", "A")}
   let(:card3) {Card.new("club", "K")}
+
   context "#compare_with"
   it "returns the higher card if same face value" do
     expect(card.compare_with(card2)).to eq(card)
